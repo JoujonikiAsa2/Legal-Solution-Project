@@ -309,7 +309,7 @@
         <section class="lg:px-20 mb-10 lg:mb-28 md:mb-16">
             <div class="flex justify-center items-center gap-8">
                 <div class="grid grid-cols-2 gap-x-0">
-                    <div class="card lg:w-[320px] text-center border-2 space-y-4 p-10">
+                    <div class="card lg:w-[320px] text-center border-r-2 bg-base-200 rounded-none space-y-4 p-10">
                         <div class="flex justify-center">
                             <img src="./images/location.png" alt="">
                         </div>
@@ -319,7 +319,7 @@
                         <div class="flex justify-center">
                         </div>
                     </div>
-                    <div class="card lg:w-[320px] text-center border-2 space-y-4 p-10">
+                    <div class="card lg:w-[320px] text-center space-y-4 p-10 border-b-2 bg-base-200 rounded-none">
                         <div class="flex justify-center">
                             <img src="./images/call.png" alt="">
                         </div>
@@ -329,7 +329,7 @@
                         <div class="flex justify-center">
                         </div>
                     </div>
-                    <div class="card lg:w-[320px] text-center border-2 space-y-4 p-10">
+                    <div class="card lg:w-[320px] text-center border-t-2 bg-base-200 rounded-none space-y-4 p-10">
                         <div class="flex justify-center">
                             <img src="./images/email.png" alt="">
                         </div>
@@ -339,7 +339,7 @@
                         <div class="flex justify-center">
                         </div>
                     </div>
-                    <div class="card lg:w-[320px] text-center border-2 space-y-4 p-10">
+                    <div class="card lg:w-[320px] text-center border-l-2 bg-base-200 rounded-none space-y-4 p-10">
                         <div class="flex justify-center">
                             <img src="./images/time.png" alt="">
                         </div>
@@ -354,23 +354,78 @@
                     <div class="card flex-shrink-0 w-full">
                         <div class="card-body">
                             <div class="form-control">
-                                <input type="text" placeholder="Your name" class="input input-bordered" />
+                                <input type="text" placeholder="Your name" class="input input-bordered h-[70px] mb-4" />
                             </div>
                             <div class="form-control">
-                                <input type="text" placeholder="Your email" class="input input-bordered" />
+                                <input type="text" placeholder="Your email" class="input input-bordered h-[70px] mb-4" />
                             </div>
                             <div class="form-control">
-                                <input type="text-area" placeholder="Your message" class="input input-bordered" />
+                                <input type="text" placeholder="Subject" class="input input-bordered h-[70px] mb-4" />
                             </div>
                             <div class="form-control">
-                                <button class="btn btn-primary">Submit</button>
+                                <input type="text-area" placeholder="Your message" class="input input-bordered h-[150px] mb-4" />
+                            </div>
+                            <div class="form-control">
+                                <button class="btn bg-primary-color">Submit</button>
                             </div>
                         </div>
                     </div>
                 </div>
         </section>
     </main>
-    <footer></footer>
+    <footer>
+        <!-- Footer section -->
+        <section class="text-white">
+          <div class="bg-[#111] lg:mt-28">
+            <div class="footer p-10 justify-around items-center">
+              <div>
+                <span class="text-xl font-semibold text-white">Quick Links</span>
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Insurance</a>
+                <a class="link link-hover">Privacy Policy</a>
+              </div>
+              <div>
+                <span class="text-xl font-semibold text-white">Our Services</span>
+                <a class="link link-hover">Live Insurance</a>
+                <a class="link link-hover">Car Insurance</a>
+                <a class="link link-hover">Heath Insurance</a>
+                <a class="link link-hover">Home Insurance</a>
+              </div>
+              <div>
+                <span class="text-xl font-semibold text-white">Help</span>
+                <a class="link link-hover">FAQ</a>
+                <a class="link link-hover">Contacts</a>
+              </div>
+              <div class="space-y-6">
+                <span class="text-xl font-semibold text-white">Subscribe</span>
+                <p class="w-[200px]">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                <div class="form-control w-80">
+                  <div class="relative">
+                    <div>
+                      <input type="text" placeholder="Email address"
+                        class="w-60 py-4 border-2 bg-transparent rounded-lg p-4 bg-white" />
+                    </div>
+                    <div
+                      class="text-white flex items-center justify-center text-3xl absolute top-0 right-10 border-2 w-12 h-14 bg-primary-color rounded-lg ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                        <g clip-path="url(#clip0_12_37)">
+                        <path d="M12.7279 21.2427L4.52197 16.8989C10.4846 13.6228 16.9629 11.3888 23.6775 10.2931C22.5826 17.0078 20.3492 23.4863 17.0738 29.4494L12.7279 21.2427ZM12.7279 21.2427L18.0312 15.9394" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_12_37">
+                        <rect width="24" height="24" fill="white" transform="translate(0 17) rotate(-45)"/>
+                        </clipPath>
+                        </defs>
+                        </svg></div>
+                  </div>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
 </body>
 
 </html>
